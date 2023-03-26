@@ -1,0 +1,194 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  padding: 40px;
+}
+.title-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  text-align: center;
+  height: 230px;
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 30px;
+  font-weight: 500;
+}
+.welcome-text {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.welcome-span {
+  font-family: 'Roboto';
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 70px;
+  }
+  .title-container {
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .welcome-text {
+    font-size: 25px;
+  }
+  .welcome-span {
+    font-size: 25px;
+  }
+}
+
+/*transaction-container */
+
+.bg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.transaction-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  padding: 40px;
+}
+@media screen and (min-width: 768px) {
+  .transaction-container {
+    width: 40%;
+  }
+  .bg {
+    flex-direction: row;
+  }
+}
+
+.transaction-textEl {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 27px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.inputContainer {
+  margin-top: 40px;
+}
+.title-text {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-size: 20px;
+  font-weight: 500;
+}
+.input-Element {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  height: 50px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 15px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 20px;
+  outline: none;
+}
+.select-text {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-size: 20px;
+  font-weight: 500;
+}
+.button {
+  background-color: #0b69ff;
+  border: none;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 100px;
+}
+
+/*history-container */
+.history-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  margin-top: 30px;
+}
+.history-text {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 27px;
+
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .history-container {
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 0px;
+  }
+}
+.history-list-container {
+  border: 1px solid #cbd5e1;
+  height: 100%;
+}
+.ul-list {
+  padding-left: 0px;
+  margin: 0px;
+}
+.list-headings {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .list-headings {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.headingEl {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
+.headingEle {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .headingEl {
+    font-size: 20px;
+  }
+}
